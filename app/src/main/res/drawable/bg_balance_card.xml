@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- VAULT — Balance card with brass accent border -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#14180E" />
+    <corners android:radius="4dp" />
+    <stroke
+        android:width="1dp"
+        android:color="#3A3424" />
+</shape>

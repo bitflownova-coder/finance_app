@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>All Transactions - Blue &amp; Black</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#3b82f6", // Vibrant Blue
+                        "primary-dark": "#1d4ed8",
+                        "background-dark": "#000000", // Pure Black
+                        "surface-dark": "#111111", // Very Dark Grey
+                        "expense-red": "#ff4d4d",
+                        "income-green": "#34d399"
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #000000;
+        }
+        .ios-blur {
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="dark:bg-background-dark text-white antialiased">
+<div class="relative flex h-screen w-full flex-col overflow-hidden max-w-md mx-auto border-x border-white/5 shadow-2xl bg-black">
+<header class="sticky top-0 z-20 bg-black/80 ios-blur px-4 pt-6 pb-2 border-b border-white/5">
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-2xl cursor-pointer text-blue-500">arrow_back_ios</span>
+<h1 class="text-2xl font-extrabold tracking-tight">Transactions</h1>
+</div>
+<button class="bg-primary p-2 rounded-full flex items-center justify-center shadow-lg shadow-blue-500/20">
+<span class="material-symbols-outlined text-black text-2xl font-bold">add</span>
+</button>
+</div>
+<div class="flex gap-3 pb-2">
+<div class="flex-1 relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-xl">search</span>
+<input class="w-full h-11 bg-white/10 border-none rounded-xl pl-10 pr-4 focus:ring-2 focus:ring-primary text-sm font-medium placeholder:text-slate-500" placeholder="Search transactions..." type="text"/>
+</div>
+<button class="w-11 h-11 flex items-center justify-center bg-white/10 rounded-xl">
+<span class="material-symbols-outlined text-slate-300">tune</span>
+</button>
+</div>
+<div class="flex gap-2 py-3 overflow-x-auto no-scrollbar">
+<button class="px-5 py-1.5 bg-primary text-black rounded-full text-sm font-bold whitespace-nowrap">All</button>
+<button class="px-5 py-1.5 bg-blue-900/40 text-blue-200 border border-blue-800/50 rounded-full text-sm font-medium whitespace-nowrap">Income</button>
+<button class="px-5 py-1.5 bg-white/10 text-slate-300 rounded-full text-sm font-medium whitespace-nowrap">Expense</button>
+<button class="px-5 py-1.5 bg-white/10 text-slate-300 rounded-full text-sm font-medium whitespace-nowrap">Category</button>
+</div>
+</header>
+<main class="flex-1 overflow-y-auto px-4 pb-32">
+<section class="mt-4">
+<div class="sticky top-0 bg-black py-2 mb-2 z-10">
+<h2 class="text-[11px] font-bold uppercase tracking-[0.2em] text-blue-500/80">Today</h2>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-3 bg-surface-dark rounded-2xl border border-white/5">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 flex items-center justify-center rounded-2xl bg-blue-900/30 text-blue-400 border border-blue-500/20">
+<span class="material-symbols-outlined">restaurant</span>
+</div>
+<div>
+<h3 class="font-bold text-sm">Starbucks Coffee</h3>
+<p class="text-[11px] text-slate-500 uppercase tracking-wider font-semibold">Dining • 08:45 AM</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-bold text-expense-red">-$6.50</p>
+</div>
+</div>
+<div class="flex items-center justify-between p-3 bg-surface-dark rounded-2xl border border-white/5">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 flex items-center justify-center rounded-2xl bg-blue-500/20 text-blue-400 border border-blue-500/20">
+<span class="material-symbols-outlined">payments</span>
+</div>
+<div>
+<h3 class="font-bold text-sm">Monthly Salary</h3>
+<p class="text-[11px] text-slate-500 uppercase tracking-wider font-semibold">Work • 09:00 AM</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-bold text-income-green">+$4,250.00</p>
+</div>
+</div>
+<div class="flex items-center justify-between p-3 bg-surface-dark rounded-2xl border border-white/5">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 flex items-center justify-center rounded-2xl bg-blue-900/30 text-blue-400 border border-blue-500/20">
+<span class="material-symbols-outlined">directions_car</span>
+</div>
+<div>
+<h3 class="font-bold text-sm">Uber Trip</h3>
+<p class="text-[11px] text-slate-500 uppercase tracking-wider font-semibold">Transport • 02:30 PM</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-bold text-expense-red">-$24.80</p>
+</div>
+</div>
+</div>
+</section>
+<section class="mt-8">
+<div class="sticky top-0 bg-black py-2 mb-2 z-10">
+<h2 class="text-[11px] font-bold uppercase tracking-[0.2em] text-blue-500/80">Yesterday</h2>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-3 bg-surface-dark rounded-2xl border border-white/5">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 flex items-center justify-center rounded-2xl bg-blue-900/30 text-blue-400 border border-blue-500/20">
+<span class="material-symbols-outlined">shopping_bag</span>
+</div>
+<div>
+<h3 class="font-bold text-sm">Apple Store</h3>
+<p class="text-[11px] text-slate-500 uppercase tracking-wider font-semibold">Electronics • 11:20 AM</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-bold text-expense-red">-$1,299.00</p>
+</div>
+</div>
+<div class="flex items-center justify-between p-3 bg-surface-dark rounded-2xl border border-white/5">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 flex items-center justify-center rounded-2xl bg-blue-900/30 text-blue-400 border border-blue-500/20">
+<span class="material-symbols-outlined">shopping_cart</span>
+</div>
+<div>
+<h3 class="font-bold text-sm">Whole Foods</h3>
+<p class="text-[11px] text-slate-500 uppercase tracking-wider font-semibold">Groceries • 06:15 PM</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-bold text-expense-red">-$84.22</p>
+</div>
+</div>
+</div>
+</section>
+<section class="mt-8">
+<div class="sticky top-0 bg-black py-2 mb-2 z-10">
+<h2 class="text-[11px] font-bold uppercase tracking-[0.2em] text-blue-500/80">Oct 12, 2023</h2>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-3 bg-surface-dark rounded-2xl border border-white/5">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 flex items-center justify-center rounded-2xl bg-blue-500/20 text-blue-400 border border-blue-500/20">
+<span class="material-symbols-outlined">savings</span>
+</div>
+<div>
+<h3 class="font-bold text-sm">Investment Dividend</h3>
+<p class="text-[11px] text-slate-500 uppercase tracking-wider font-semibold">Passive • 04:30 PM</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-bold text-income-green">+$124.50</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<nav class="absolute bottom-0 w-full bg-black/95 ios-blur border-t border-white/10 px-6 py-3 pb-8 flex justify-between items-center z-30">
+<div class="flex flex-col items-center gap-1 text-slate-500">
+<span class="material-symbols-outlined">grid_view</span>
+<span class="text-[10px] font-bold">Home</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-primary">
+<span class="material-symbols-outlined">receipt_long</span>
+<span class="text-[10px] font-bold">Ledger</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-slate-500">
+<span class="material-symbols-outlined">analytics</span>
+<span class="text-[10px] font-bold">Insights</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-slate-500">
+<span class="material-symbols-outlined">person</span>
+<span class="text-[10px] font-bold">Profile</span>
+</div>
+</nav>
+<div class="absolute bottom-2 left-1/2 -translate-x-1/2 w-32 h-1 bg-white/20 rounded-full z-40"></div>
+</div>
+
+</body></html>

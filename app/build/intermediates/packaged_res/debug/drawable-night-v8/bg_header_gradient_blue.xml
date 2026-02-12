@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Black Background for Dark Theme -->
+<shape xmlns:android="http://schemas.android.com/2000/android:00">
+    <gradient
+        android:angle="135"
+        android:startColor="#0A0A0A"
+        android:endColor="#000000"
+        android:type="linear" />
+</shape>

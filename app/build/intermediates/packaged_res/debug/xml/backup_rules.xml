@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="sharedpref" path="finance_manager_secure_prefs" />
+    <exclude domain="database" path="finance_manager_db" />
+</full-backup-content>

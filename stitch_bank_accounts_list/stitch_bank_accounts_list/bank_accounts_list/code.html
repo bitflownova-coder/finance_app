@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bank Accounts List</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#3b82f6",
+                        "accent": "#60a5fa",
+                        "background-dark": "#000000",
+                        "card-dark": "#0a0a0c",
+                        "surface-dark": "#111114",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "1rem", "2xl": "1.25rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+    body {
+        font-family: 'Manrope', sans-serif;
+        background-color: #000000;
+        color: #ffffff;
+    }
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .ios-blur {
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+    }
+    .card-gradient {
+        background: linear-gradient(145deg, rgba(59, 130, 246, 0.08) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+</style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-dark text-white min-h-screen">
+<div class="max-w-md mx-auto relative flex flex-col min-h-screen pb-32">
+<header class="sticky top-0 z-20 bg-black/60 ios-blur px-4 pt-4 pb-2">
+<div class="flex items-center justify-between mb-6">
+<button class="flex items-center justify-center size-10 rounded-full bg-white/5 hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined text-2xl text-blue-400">arrow_back_ios_new</span>
+</button>
+<div class="flex gap-2">
+<button class="flex items-center justify-center size-10 rounded-full bg-white/5 hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined text-2xl text-blue-400">query_stats</span>
+</button>
+<button class="flex items-center justify-center size-10 rounded-full bg-white/5 hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined text-2xl text-blue-400">settings</span>
+</button>
+</div>
+</div>
+<h1 class="text-[34px] font-extrabold tracking-tight px-1">Bank Accounts</h1>
+</header>
+<div class="px-4 py-4">
+<div class="bg-blue-600/10 border border-blue-500/20 rounded-2xl p-6 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 bg-blue-600/10 blur-3xl rounded-full -mr-16 -mt-16"></div>
+<span class="text-xs font-bold text-blue-400/80 uppercase tracking-[0.15em]">Total Net Worth</span>
+<div class="flex items-baseline gap-1 mt-1">
+<span class="text-4xl font-extrabold tracking-tight">$42,500</span>
+<span class="text-xl font-bold text-blue-400/60">.00</span>
+</div>
+<div class="mt-4 inline-flex items-center gap-2 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">
+<span class="material-symbols-outlined text-blue-400 text-lg">trending_up</span>
+<span class="text-blue-400 font-bold text-xs">+2.4% vs last month</span>
+</div>
+</div>
+</div>
+<main class="flex-1 px-4 space-y-8">
+<section>
+<div class="flex items-center justify-between mb-4 px-1">
+<h2 class="text-sm font-extrabold uppercase tracking-widest text-slate-400">Checking &amp; Savings</h2>
+<span class="text-xs font-bold text-blue-500/60">2 Accounts</span>
+</div>
+<div class="space-y-4">
+<div class="card-gradient bg-card-dark border border-blue-500/20 rounded-2xl p-4 flex items-center justify-between shadow-lg shadow-blue-900/5">
+<div class="flex items-center gap-4">
+<div class="size-12 rounded-xl bg-blue-600 flex items-center justify-center overflow-hidden border border-white/10">
+<div class="w-full h-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAEtL2_WY6qy2MfrhR-UWOT_meoCeKDzNZBbLFiBgfvWofLYzJO8xR2cyNGu6_poMZe_GBVK6591rxLVVUlVfeKrpehanYvE26CdMl8yHEv22AKMxYWbzOsTgP1UeX6OnL_f-GLCLt0UXuyiHinE2GwEqqjEBxweA9ZDtZm7EtUdtc0-kEf8KAiZM9GJmgLl9_VsAwtQdqCMRn9nrE7ClbhHqHO87cYxTS1tDp_eX39uVx9531bbBE5eOv9SoVrZKTUV86N1cDCAD2s')"></div>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-bold text-base">Chase Checking</h3>
+<span class="px-2 py-0.5 bg-blue-500 text-white text-[9px] font-black rounded-md uppercase tracking-tighter">Main</span>
+</div>
+<p class="text-xs font-medium text-slate-400 mt-0.5">Total Access • ****1234</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-bold text-base tracking-tight">$12,450.00</p>
+<div class="flex items-center justify-end gap-1 mt-0.5">
+<div class="size-1.5 rounded-full bg-blue-500 animate-pulse"></div>
+<p class="text-[10px] text-blue-400 font-extrabold tracking-tighter uppercase">Live</p>
+</div>
+</div>
+</div>
+<div class="bg-card-dark border border-white/5 rounded-2xl p-4 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="size-12 rounded-xl bg-red-600 flex items-center justify-center overflow-hidden border border-white/10">
+<div class="w-full h-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAdD28WLLUZja13UdNzDvYpLGr4-g6o1GbPJG9PegoDi0ezQU9Lk2S2elG8t7ylLHUga5XfTNbCkPQKPImEPOEuW4RoFfjtR1F52nrhtVXoFrBZbGxkC7K4Na4LsgmjzE9Razcq18bTXXxpEVjU7LaFKh0f871GS3oChJGRiSfo0zTTzlyG-IfkjhQ8PPBFXCx_gYhcpbrMxEOmIoQL3h4v6WbcBRrA5KozrxNxpZgVujKbNMl_t4rsI6MMboepDwsn5AclyzFZsW6H')"></div>
+</div>
+<div>
+<h3 class="font-bold text-base">BoA Savings</h3>
+<p class="text-xs font-medium text-slate-400 mt-0.5">Advantage • ****5678</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-bold text-base tracking-tight">$25,000.00</p>
+<p class="text-[10px] text-slate-500 font-bold uppercase tracking-tighter mt-0.5">2h ago</p>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="flex items-center justify-between mb-4 px-1">
+<h2 class="text-sm font-extrabold uppercase tracking-widest text-slate-400">Investments</h2>
+<span class="text-xs font-bold text-blue-500/60">1 Account</span>
+</div>
+<div class="space-y-4">
+<div class="bg-card-dark border border-white/5 rounded-2xl p-4 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="size-12 rounded-xl bg-green-700 flex items-center justify-center overflow-hidden border border-white/10">
+<div class="w-full h-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAsz6Co8cOy2tAT65Zvi4NDCfeGhigDaaZNfzKPpRiuzGD-gQRXErURn0moNXcVPsH6gqZ6Yaaad7QWBUxWtB9YHVVSMaN3s8A2UIVdnrZ1WFalN2uOcGWgaSVXkWKXPLIHHQwCihEp0HBw11Ffk6KtvuCRwNWQ5iTZDyBmDZxbfH1ZaWLVDXM1aVfK7bTJd7SK-ZFBkVyu7OBuOjMWHAzD5ExbgJ6upuNILSBALGR6u1fDsWYdwcszRBUrtX2v3kxU7N5of2Q5CzaL')"></div>
+</div>
+<div>
+<h3 class="font-bold text-base">Vanguard 401(k)</h3>
+<p class="text-xs font-medium text-slate-400 mt-0.5">Retirement • ****9012</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-bold text-base tracking-tight">$5,050.00</p>
+<div class="flex items-center justify-end gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[12px] text-blue-400">verified</span>
+<span class="text-[10px] text-blue-400 font-extrabold tracking-tighter uppercase">Syncing</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="pt-2">
+<button class="w-full border-2 border-dashed border-blue-900/30 rounded-2xl py-8 flex flex-col items-center justify-center gap-3 group hover:border-blue-500/50 hover:bg-blue-500/5 transition-all">
+<div class="size-12 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">add</span>
+</div>
+<span class="text-xs font-bold text-slate-500 group-hover:text-blue-400 uppercase tracking-widest transition-colors">Connect another institution</span>
+</button>
+</div>
+</main>
+<div class="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black via-black to-transparent">
+<div class="max-w-md mx-auto">
+<button class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-4 rounded-2xl shadow-xl shadow-blue-600/20 flex items-center justify-center gap-3 transition-all active:scale-95">
+<span class="material-symbols-outlined">add_card</span>
+<span class="text-base">Add New Account</span>
+</button>
+</div>
+</div>
+<div class="fixed bottom-2 left-1/2 -translate-x-1/2 w-36 h-1 bg-white/10 rounded-full"></div>
+</div>
+
+</body></html>

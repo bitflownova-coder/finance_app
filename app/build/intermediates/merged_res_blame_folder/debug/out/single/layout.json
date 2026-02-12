@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\item_recurring_transaction.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_recurring_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_bank_setup.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_bank_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_register.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\dialog_add_contribution.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_add_contribution.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_help.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\dialog_add_edit_account.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_add_edit_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\item_budget.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_budget.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\item_calendar_day.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_calendar_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\dialog_add_edit_goal.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_add_edit_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\dialog_add_edit_recurring.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_add_edit_recurring.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\item_goal.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_pin_verify.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_pin_verify.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_reports.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_pin_setup.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_pin_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\item_transaction_dashboard.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_transaction_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\item_split_bill.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_split_bill.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_splash.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\dialog_add_edit_budget.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_add_edit_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\item_transaction.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\item_help_category.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_help_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_insights.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_insights.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_recurring.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_recurring.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_analytics.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_analytics.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_goals.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_goals.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\item_bank_account.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_bank_account.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeDebugResources-67:/layout/fragment_analytics.xml",
+        "source": "com.financemanager.app-main-70:/layout/fragment_analytics.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_split_bill.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_split_bill.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\dialog_transaction_filter.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_transaction_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_calendar.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_onboarding.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\item_insight.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_insight.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\dialog_add_edit_transaction.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_add_edit_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\item_onboarding_page.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_onboarding_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\item_faq.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_faq.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-mergeDebugResources-67:\\layout\\fragment_transaction.xml",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_transaction.xml"
+    }
+]

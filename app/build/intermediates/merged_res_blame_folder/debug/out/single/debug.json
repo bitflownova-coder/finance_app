@@ -1,0 +1,586 @@
+[
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_camera.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_input.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\color_bottom_nav_item_color.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\color\\bottom_nav_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_item_transaction.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_splash.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_expense_indicator.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_expense_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_card.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_card_dark.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_card_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_goals.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_goals.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_bottom_sheet.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_divider.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_icon_container.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_icon_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_chevron_right.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_chevron_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_income_badge_dark.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_income_badge_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable-night_bg_header_gradient_blue.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable-night\\bg_header_gradient_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_pie_chart.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_pie_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_analytics.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_analytics.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_trending_up.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_trending_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_card_gradient_dark.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_card_gradient_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_repeat.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_repeat.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_income_tag.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_income_tag.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_item_recurring_transaction.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_recurring_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_dialog_add_edit_budget.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_add_edit_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_pin_setup.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_pin_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_register.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_indicator_expense.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\indicator_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_button_primary.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_button_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_tab.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable-night_bg_expense_indicator.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable-night\\bg_expense_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\menu_menu_recurring.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\menu\\menu_recurring.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_dialog_add_edit_transaction.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_add_edit_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_chip_unselected.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_chip_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_splash_dark.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_splash_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_item_budget.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_balance.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_balance.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_expense.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_expense_badge_dark.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_expense_badge_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_category.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_card_warm.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_card_warm.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_dialog_add_edit_goal.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_add_edit_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_tab_selected.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_tab_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_item_faq.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_faq.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "com.financemanager.app-merged_res-68:/layout_fragment_analytics.xml.flat",
+        "source": "com.financemanager.app-main-70:/layout/fragment_analytics.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_reports.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_item_onboarding_page.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_onboarding_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_item_goal.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_search_bar.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_search_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_check.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_balance_card.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_balance_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_recurring.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_recurring.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_gallery.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_pin_verify.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_pin_verify.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_bank_setup.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_bank_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_sync.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_sync.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable-night_bg_balance_card.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable-night\\bg_balance_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_item_split_bill.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_split_bill.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\menu_menu_save.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\menu\\menu_save.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_chip_selected.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_chip_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_rupee.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_rupee.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_tab_unselected.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_tab_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_pin_dot_filled.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_pin_dot_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_button_secondary.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_button_secondary.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable-night_bg_chip_selected.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable-night\\bg_chip_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_dialog_add_contribution.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_add_contribution.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_button_ghost.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_button_ghost.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_dialog_add_edit_account.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_add_edit_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_button_selector_dark.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_button_selector_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_input_field.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_input_field.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_budget.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_split_bill.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_split_bill.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_fab_primary.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_fab_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_income.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_income.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_item_help_category.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_help_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_recurring.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_recurring.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_onboarding.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable-night_bg_chip_unselected.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable-night\\bg_chip_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_button_primary_dark.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_button_primary_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_transactions.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_transactions.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_chevron_left.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_chevron_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_tab_selector.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\tab_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_input_field_dark.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_input_field_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_item_calendar_day.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_calendar_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable-night_bg_search_bar.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable-night\\bg_search_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_card_dark_professional.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_card_dark_professional.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_wallet.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable-night_bg_income_indicator.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable-night\\bg_income_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable-night_bg_button_primary.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable-night\\bg_button_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_indicator_income.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\indicator_income.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_item_transaction_dashboard.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_transaction_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_insights.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_insights.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_lightbulb.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_lightbulb.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_item_bank_account.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_bank_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_pin_dot_empty.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_pin_dot_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_transaction.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\xml_file_provider_paths.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\xml\\file_provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_help.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\color_bottom_nav_color_dark.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\color\\bottom_nav_color_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_transaction_item.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_transaction_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_receipt.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_receipt.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_calendar.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_header_gradient_blue.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_header_gradient_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_vault_expense_tag.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_vault_expense_tag.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_fragment_analytics.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\fragment_analytics.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_button_primary.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_button_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_income_indicator.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_income_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_dialog_transaction_filter.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_transaction_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_track_changes.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_track_changes.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_refresh.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_refresh.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_chip.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_crystal_ball.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_crystal_ball.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_divider_dark.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\divider_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_bg_card_professional.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\bg_card_professional.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_warning.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_warning.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_alert.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_dialog_add_edit_recurring.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\dialog_add_edit_recurring.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\drawable_ic_note.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\drawable\\ic_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-merged_res-68:\\layout_item_insight.xml.flat",
+        "source": "C:\\Users\\amish\\.gradle\\daemon\\8.5\\com.financemanager.app-main-70:\\layout\\item_insight.xml"
+    }
+]

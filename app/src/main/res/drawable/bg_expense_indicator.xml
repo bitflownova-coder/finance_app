@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- VAULT — Expense indicator -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#1F1412" />
+    <corners android:radius="4dp" />
+    <stroke
+        android:width="1dp"
+        android:color="#33221C" />
+</shape>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:minHeight="56dp"
+    app:cardBackgroundColor="@color/surface"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="0dp"
+    app:strokeColor="@color/vault_border"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_day_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="15"
+            android:textColor="@color/vault_parchment"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/layout_indicators"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/indicator_income"
+                android:layout_width="4dp"
+                android:layout_height="4dp"
+                android:layout_marginEnd="2dp"
+                android:background="@drawable/indicator_income"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/indicator_expense"
+                android:layout_width="4dp"
+                android:layout_height="4dp"
+                android:background="@drawable/indicator_expense"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_transaction_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="monospace"
+            android:text="3"
+            android:textColor="@color/vault_brass_dim"
+            android:textSize="9sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

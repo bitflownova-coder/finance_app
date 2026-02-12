@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Finance Manager</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirm">Confirm</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="success">Done!</string>
+    
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Your Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="logout">Log Out</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard">Home</string>
+    <string name="total_balance">Total Money</string>
+    <string name="income">Money In</string>
+    <string name="expense">Money Out</string>
+    <string name="recent_transactions">Recent History</string>
+    <string name="view_all">See All</string>
+    
+    <!-- Transactions -->
+    <string name="transactions">History</string>
+    <string name="add_transaction">Add New</string>
+    <string name="transaction_details">Details</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="description">Note</string>
+    <string name="date">Date</string>
+    <string name="type">Type</string>
+    <string name="debit">Money Out</string>
+    <string name="credit">Money In</string>
+    
+    <!-- Accounts -->
+    <string name="accounts">Bank Accounts</string>
+    <string name="add_account">Add Account</string>
+    <string name="account_name">Account Name</string>
+    <string name="account_number">Account Number</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="ifsc_code">IFSC Code</string>
+    <string name="account_type">Account Type</string>
+    <string name="balance">Balance</string>
+    
+    <!-- Budget -->
+    <string name="budget">Budget</string>
+    <string name="set_budget">Set Budget</string>
+    <string name="budget_name">Name</string>
+    <string name="budget_amount">Budget Amount</string>
+    <string name="spent">Used</string>
+    <string name="remaining">Left</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    
+    <!-- Profile -->
+    <string name="profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_transactions">History</string>
+    <string name="nav_accounts">Accounts</string>
+    <string name="nav_budget">Budgets</string>
+    <string name="nav_analytics">Reports</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Errors -->
+    <string name="error_empty_field">Please fill this in</string>
+    <string name="error_invalid_email">Please enter a valid email</string>
+    <string name="error_weak_password">Password needs at least 8 characters with uppercase, lowercase, number, and special character</string>
+    <string name="error_password_mismatch">Passwords don\'t match</string>
+    <string name="error_login_failed">Login failed. Please check what you entered</string>
+    <string name="error_registration_failed">Something went wrong. Please try again</string>
+    <string name="error_network">No internet. Please check your connection</string>
+    <string name="error_unknown">Something went wrong. Please try again</string>
+    
+    <!-- Success Messages -->
+    <string name="success_login">You\'re in!</string>
+    <string name="success_registration">All set!</string>
+    <string name="success_transaction_added">Added!</string>
+    <string name="success_account_added">Account added!</string>
+    <string name="success_budget_set">Budget set!</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_image">Onboarding illustration</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_get_started">Get Started</string>
+    
+    <!-- Help & Support -->
+    <string name="help_support">Help</string>
+    <string name="faq">Common Questions</string>
+    
+    <!-- Recurring Transactions -->
+    <string name="recurring_transactions">Auto Payments</string>
+    <string name="add_recurring_transaction">Add Auto Payment</string>
+    <string name="edit_recurring_transaction">Edit Auto Payment</string>
+    <string name="add_recurring">Add Auto Payment</string>
+    <string name="frequency">How Often</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="no_end_date">No end date</string>
+    <string name="select_date">Pick a Date</string>
+    <string name="active">Active</string>
+    <string name="all">All</string>
+    <string name="transaction_type">Type</string>
+    <string name="next_occurrence">Next Date</string>
+    
+    <!-- Recurring Frequencies -->
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="biweekly">Every 2 Weeks</string>
+    <string name="quarterly">Every 3 Months</string>
+    
+    <!-- Recurring Transaction Messages -->
+    <string name="no_recurring_transactions">No Auto Payments</string>
+    <string name="no_recurring_transactions_desc">Set up auto payments for regular money in or out</string>
+    <string name="recurring_transaction_added">Auto payment added</string>
+    <string name="recurring_transaction_updated">Auto payment updated</string>
+    <string name="recurring_transaction_deleted">Auto payment removed</string>
+    <string name="recurring_transaction_activated">Auto payment turned on</string>
+    <string name="recurring_transaction_paused">Auto payment paused</string>
+    <string name="recurring_transactions_processed">%d payment(s) created</string>
+    <string name="recurring_transaction_help">Auto payments will be created for you based on how often you choose</string>
+    
+    <!-- Recurring Dialogs -->
+    <string name="delete_recurring_transaction_title">Remove auto payment?</string>
+    <string name="delete_recurring_transaction_message">Future payments will stop. Past payments won\'t change.</string>
+    <string name="process_recurring_now_title">Run now?</string>
+    <string name="process_recurring_now_message">This will create all pending payments right now.</string>
+    <string name="process">Run</string>
+    
+    <!-- Recurring Errors -->
+    <string name="error_invalid_amount">Please enter a valid amount</string>
+    <string name="error_empty_description">Please add a note</string>
+    <string name="error_end_date_before_start">End date must be after start date</string>
+    
+    <!-- Smart Insights -->
+    <string name="smart_insights">Tips</string>
+    <string name="insights">Tips</string>
+    <string name="all_insights">All Tips</string>
+    <string name="this_month">This Month</string>
+    <string name="savings">Saved</string>
+    <string name="predicted_next_month">Expected Next Month Spending</string>
+    <string name="critical">Urgent</string>
+    <string name="high">Important</string>
+    <string name="medium">Good to Know</string>
+    <string name="low">FYI</string>
+    <string name="insight_icon">Tip icon</string>
+    <string name="no_insights_available">No tips yet</string>
+    <string name="add_transactions_to_see_insights">Add more transactions to see personalized tips</string>
+    <string name="percentage_format">%+.1f%%</string>
+    <string name="currency_format">₹%.2f</string>
+    <string name="error_user_not_logged_in">Please set up your account first</string>
+
+    <!-- Split Bill -->
+    <string name="no_split_bills">No split bills yet</string>
+    <string name="add_split_bill">Split a Bill</string>
+
+    <!-- Reports -->
+    <string name="expenses">Spending</string>
+    
+    <!-- Setup Wizard -->
+    <string name="setup_profile_title">Let\'s get\nto know\nyou</string>
+    <string name="setup_bank_title">Add your\nbank</string>
+    <string name="setup_pin_title">Set your\nPIN</string>
+    <string name="enter_pin_title">Enter\nyour PIN</string>
+    <string name="continue_text">CONTINUE</string>
+    <string name="set_pin">SET PIN</string>
+    <string name="forgot_pin">FORGOT PIN? RESET APP</string>
+    <string name="bank_setup_note">You can add more accounts later from your profile. This sets your starting balance.</string>
+    <string name="step_1_of_3">STEP 1 OF 3</string>
+    <string name="step_2_of_3">STEP 2 OF 3</string>
+    <string name="step_3_of_3">STEP 3 OF 3</string>
+    <string name="enter_pin_subtitle">Enter your 4-digit PIN to continue</string>
+    <string name="initial_amount">Starting Amount</string>
+</resources>
+
+

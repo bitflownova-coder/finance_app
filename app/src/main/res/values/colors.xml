@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== VAULT — Private Banking Terminal ==================== -->
+    <!-- Inspired by: engraved brass plates, bond paper, trading floors, safe doors -->
+
+    <!-- Core Palette — Cool Gunmetal + Warm Brass -->
+    <color name="primary">#C9A84C</color>
+    <color name="colorPrimary">#C9A84C</color>
+    <color name="primary_variant">#A68A3A</color>
+    <color name="primary_dark">#8B7230</color>
+    <color name="primary_light">#E0C76E</color>
+    <color name="primary_container">#2C2718</color>
+    <color name="on_primary">#0A0A08</color>
+    <color name="on_primary_container">#E0C76E</color>
+
+    <!-- Secondary — Oxidized Copper / Sage -->
+    <color name="secondary">#5C8A6F</color>
+    <color name="secondary_variant">#4A7260</color>
+    <color name="secondary_container">#1A2B22</color>
+    <color name="on_secondary">#E2DDD5</color>
+    <color name="on_secondary_container">#8BBFA0</color>
+
+    <!-- Background — Deep Gunmetal Blacks -->
+    <color name="background">#080A0C</color>
+    <color name="surface">#111418</color>
+    <color name="surface_variant">#1A1D23</color>
+    <color name="surface_card">#1A1D23</color>
+    <color name="on_background">#E2DDD5</color>
+    <color name="on_surface">#E2DDD5</color>
+    <color name="on_surface_variant">#7A7D82</color>
+
+    <!-- Status — Muted, Deliberate, Not Screaming -->
+    <color name="error">#B54A3E</color>
+    <color name="on_error">#E2DDD5</color>
+    <color name="success">#5C8A6F</color>
+    <color name="success_green">#5C8A6F</color>
+    <color name="warning">#C9A84C</color>
+    <color name="warning_orange">#C9A84C</color>
+    <color name="info">#5A7FA0</color>
+
+    <!-- Tinted Backgrounds for Status -->
+    <color name="error_light">#1F1412</color>
+    <color name="warning_light">#1F1C12</color>
+    <color name="info_light">#121820</color>
+    <color name="success_light">#121F18</color>
+
+    <!-- Transaction — Income/Expense with Character -->
+    <color name="income_green">#6BAF8A</color>
+    <color name="expense_red">#C45C50</color>
+    <color name="income_color">#6BAF8A</color>
+    <color name="expense_color">#C45C50</color>
+    <color name="income_background">#121F18</color>
+    <color name="expense_background">#1F1412</color>
+
+    <!-- Neutrals — Warm-Tinted Grays -->
+    <color name="white">#E2DDD5</color>
+    <color name="black">#080A0C</color>
+    <color name="gray_light">#22262E</color>
+    <color name="gray">#7A7D82</color>
+    <color name="gray_medium">#3A3D42</color>
+    <color name="gray_dark">#4A4D52</color>
+    <color name="text_primary">#E2DDD5</color>
+    <color name="text_secondary">#7A7D82</color>
+    <color name="text_hint">#4A4D52</color>
+
+    <!-- Borders — Subtle Structure -->
+    <color name="divider">#262A30</color>
+    <color name="border">#262A30</color>
+    <color name="ripple_light">#18C9A84C</color>
+
+    <!-- Chart Colors — Earthy, Deliberate Palette -->
+    <color name="chart_color_1">#C9A84C</color>
+    <color name="chart_color_2">#5C8A6F</color>
+    <color name="chart_color_3">#B54A3E</color>
+    <color name="chart_color_4">#5A7FA0</color>
+    <color name="chart_color_5">#8B6D3A</color>
+    <color name="chart_color_6">#7A6B8A</color>
+
+    <!-- Vault-specific tokens -->
+    <color name="vault_brass">#C9A84C</color>
+    <color name="vault_brass_dim">#8B7230</color>
+    <color name="vault_steel">#22262E</color>
+    <color name="vault_parchment">#E2DDD5</color>
+    <color name="vault_border">#262A30</color>
+    <color name="vault_border_warm">#3A3424</color>
+    <color name="vault_surface_raised">#22262E</color>
+</resources>
