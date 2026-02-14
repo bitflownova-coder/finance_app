@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/bg_vault_card"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Budget Name -->
+    <TextView
+        android:id="@+id/tv_budget_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/vault_parchment"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:text="Monthly Food Budget" />
+
+    <!-- Category + Period -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.1"
+            android:textColor="@color/vault_brass_dim"
+            android:textSize="11sp"
+            tools:text="FOOD" />
+
+        <TextView
+            android:id="@+id/tv_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="monospace"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="10sp"
+            tools:text="• Jan 1 - Jan 31" />
+    </LinearLayout>
+
+    <!-- Progress Bar -->
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:indicatorColor="@color/vault_brass"
+        app:trackColor="@color/vault_steel"
+        app:trackCornerRadius="2dp"
+        app:trackThickness="6dp"
+        tools:progress="65" />
+
+    <!-- Spent + Total -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_spent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="@color/vault_parchment"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="₹15,000" />
+
+        <TextView
+            android:id="@+id/tv_spent_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.1"
+            android:text="SPENT"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="10sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="12sp"
+            tools:text="of ₹20,000" />
+    </LinearLayout>
+
+    <!-- Status Chip -->
+    <TextView
+        android:id="@+id/chip_status"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_vault_icon_container"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/vault_brass"
+        android:textSize="11sp"
+        tools:text="75% used" />
+
+</LinearLayout>

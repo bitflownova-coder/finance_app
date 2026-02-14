@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Blue &amp; Black Add Transaction</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2E5BFF", // Electric Blue
+                        "background-light": "#f8f9fa",
+                        "background-dark": "#000000", // Deep Black
+                        "field-bg": "#121212",
+                        "field-border": "#222222"
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">body {
+    font-family: "Manrope", sans-serif
+    }
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24
+    }
+.custom-select {
+    appearance: none;
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuBgH_4z5eLEKvdcw1WE8tUPmwO4cMUjptgZrBQ18RAtHC8yCUVB5i-P55Qm4wfZCZE1ozuoRVuTELVp6SOqv4hYn3S7zRGji5-bpzuEl8MQOwdQ47xIr9FBB6O7qP-y3Hb-6bFl5G4-PdTuBjOrOMIIQ19Bb5vpON9tayKL5t9A4eP0h6p4aWiH-9uSdW-kAsd-OuL6lRZpTDQ4cnVkG7gSja0wLwmBrqvDh2WEKXSXyP9EXTFDDPkH8iiK38h1BLxYw4CWrGTK2YnO);
+    background-position: right 0.75rem center;
+    background-repeat: no-repeat;
+    background-size: 1.25em 1.25em
+    }
+body {
+    min-height: max(884px, 100dvh)
+    }</style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-dark text-white min-h-screen font-display">
+<div class="relative flex h-full min-h-screen w-full flex-col max-w-md mx-auto overflow-x-hidden bg-background-dark pb-24">
+<header class="flex items-center p-4 justify-between sticky top-0 bg-background-dark/80 backdrop-blur-md z-10 border-b border-white/5">
+<button class="text-primary font-semibold text-base">Cancel</button>
+<h2 class="text-lg font-bold leading-tight tracking-tight flex-1 text-center">Add Transaction</h2>
+<button class="text-primary font-semibold text-base">Reset</button>
+</header>
+<main class="flex-1">
+<div class="flex flex-col items-center justify-center py-12 px-4">
+<span class="text-slate-500 text-sm font-medium uppercase tracking-widest mb-2">Amount</span>
+<div class="flex items-center text-primary">
+<span class="text-4xl font-bold mr-1">$</span>
+<input class="bg-transparent border-none text-center text-6xl font-extrabold focus:ring-0 w-full p-0 text-white placeholder-slate-800" placeholder="0.00" type="text" value="0.00"/>
+</div>
+</div>
+<div class="px-4 space-y-6">
+<div class="flex flex-col gap-2">
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Description</label>
+<div class="relative">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-primary">edit_note</span>
+</div>
+<input class="w-full pl-10 pr-4 py-4 rounded-xl border border-field-border bg-field-bg focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all placeholder-slate-600" placeholder="What was this for?" type="text"/>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Category</label>
+<div class="relative">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-primary">category</span>
+</div>
+<select class="custom-select w-full pl-10 pr-10 py-4 rounded-xl border border-field-border bg-field-bg focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all appearance-none text-white">
+<option value="">Select Category</option>
+<option value="food">Food &amp; Dining</option>
+<option value="transport">Transportation</option>
+<option value="shopping">Shopping</option>
+<option value="utilities">Utilities</option>
+<option value="entertainment">Entertainment</option>
+</select>
+</div>
+</div>
+<div class="rounded-xl border border-field-border bg-field-bg p-4">
+<div class="flex items-center justify-between mb-2">
+<div class="flex flex-col">
+<p class="font-bold text-base">Link to Budget</p>
+<p class="text-sm text-slate-500">Associate with a budget category</p>
+</div>
+<label class="relative flex h-[31px] w-[51px] cursor-pointer items-center rounded-full border-none bg-slate-800 p-0.5 has-[:checked]:justify-end has-[:checked]:bg-primary transition-colors">
+<div class="h-full w-[27px] rounded-full bg-white shadow-md"></div>
+<input checked="" class="invisible absolute" type="checkbox"/>
+</label>
+</div>
+<div class="mt-4 pt-4 border-t border-white/5 flex items-center justify-between group cursor-pointer">
+<div class="flex items-center gap-3">
+<div class="size-10 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-xl">account_balance_wallet</span>
+</div>
+<div>
+<p class="text-sm font-semibold">Monthly Groceries</p>
+<p class="text-xs text-slate-500">$450.00 remaining</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-600">chevron_right</span>
+</div>
+</div>
+<div class="flex flex-col gap-3">
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Receipt &amp; Proof</label>
+<div class="flex gap-4">
+<button class="flex-1 flex flex-col items-center justify-center gap-2 p-6 rounded-xl border-2 border-dashed border-slate-800 bg-field-bg hover:bg-slate-900 transition-colors">
+<div class="size-12 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl">add_a_photo</span>
+</div>
+<span class="text-sm font-medium text-slate-400">Upload Receipt</span>
+</button>
+<div class="relative w-32 shrink-0 group">
+<div class="h-full w-full rounded-xl overflow-hidden border border-field-border bg-field-bg">
+<img alt="Receipt preview" class="h-full w-full object-cover opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuxK-R5-J4IJGkSdYJpmBkaT6An3DXISJA4gUmLMe-RCb0B9LhbNRwJCOEekEhlvKsKlaRRqCqwDWVoxYe3MVtCiieqiIhfBUSp66fv9LLAogO29iEzWk5er0gAOpf6CuCjsHyXFj9IZiLmVtW6wHHL2Nx81vygBhvo7nFBRiGoQpGIu7__Zi5TfcQcPM_hdYGXnAmHY5--R14e_ZHT0jn4g_grhAut61lPGHNVFpE3W0oX4C6GxqQqL84Qdi9yR0Id-hkqRZ6WVzV"/>
+</div>
+<button class="absolute -top-2 -right-2 size-6 rounded-full bg-red-600 text-white flex items-center justify-center shadow-lg">
+<span class="material-symbols-outlined text-xs">close</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="fixed bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black via-black/90 to-transparent pt-12">
+<div class="max-w-md mx-auto">
+<button class="w-full bg-primary text-white py-4 rounded-xl font-bold text-lg shadow-2xl shadow-primary/40 active:scale-[0.98] transition-transform">
+                    Save Transaction
+                </button>
+<div class="h-6"></div>
+</div>
+</div>
+</div>
+
+</body></html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Selected Chip - Blue Background -->
+<shape xmlns:android="http://schemas.android.com/2000/android:00">
+    <solid android:color="#E8F0FE" />
+    <corners android:radius="16dp" />
+</shape>

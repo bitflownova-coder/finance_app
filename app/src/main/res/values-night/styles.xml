@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text Styles for Dark Theme -->
+    <style name="TextAppearance.App.Headline" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textSize">32sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <style name="TextAppearance.App.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textSize">22sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <style name="TextAppearance.App.Body" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="TextAppearance.App.Body.Secondary">
+        <item name="android:textColor">@color/text_secondary_dark</item>
+    </style>
+    
+    <style name="TextAppearance.App.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/text_secondary_dark</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <!-- Amount Text Styles -->
+    <style name="TextAppearance.App.Amount" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <style name="TextAppearance.App.Amount.Income">
+        <item name="android:textColor">@color/income_green</item>
+    </style>
+    
+    <style name="TextAppearance.App.Amount.Expense">
+        <item name="android:textColor">@color/expense_red</item>
+    </style>
+</resources>
+

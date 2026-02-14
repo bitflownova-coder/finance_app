@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Credit card back -->
+    <path
+        android:fillColor="#DBEAFE"
+        android:pathData="M25,52 L145,38 C152,37 158,42 159,49 L175,148 C176,155 171,161 164,162 L44,176 C37,177 31,172 30,165 L14,66 C13,59 18,53 25,52 Z" />
+
+    <!-- Credit card front -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,58 L165,58 C172,58 178,64 178,71 L178,149 C178,156 172,162 165,162 L35,162 C28,162 22,156 22,149 L22,71 C22,64 28,58 35,58 Z" />
+
+    <!-- Card stripe -->
+    <path
+        android:fillColor="#1E40AF"
+        android:pathData="M22,78 L178,78 L178,98 L22,98 Z" />
+
+    <!-- Card chip -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M42,108 L72,108 C75,108 78,111 78,114 L78,134 C78,137 75,140 72,140 L42,140 C39,140 36,137 36,134 L36,114 C36,111 39,108 42,108 Z" />
+
+    <!-- Chip detail lines -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M36,124 L78,124 L78,126 L36,126 Z" />
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M56,108 L58,108 L58,140 L56,140 Z" />
+
+    <!-- Card number dots -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M95,120 A4,4,0,1,1,95,119.9 Z M110,120 A4,4,0,1,1,110,119.9 Z M125,120 A4,4,0,1,1,125,119.9 Z M140,120 A4,4,0,1,1,140,119.9 Z" />
+
+    <!-- Card holder name line -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M95,135 L165,135 L165,140 L95,140 Z" />
+
+    <!-- Contactless icon (3 arcs) -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M155,100 C160,95 160,88 155,83" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M160,103 C168,95 168,85 160,77" />
+</vector>

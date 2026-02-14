@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme Selection Keys -->
+    <string name="pref_theme_key">theme_preference</string>
+    <string name="pref_theme_light">light</string>
+    <string name="pref_theme_dark">dark</string>
+    <string name="pref_theme_system">system</string>
+    
+    <!-- Theme Selection Labels -->
+    <string name="theme_light">Light Theme</string>
+    <string name="theme_dark">Dark Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_settings">Theme Settings</string>
+    <string name="choose_theme">Choose Theme</string>
+</resources>

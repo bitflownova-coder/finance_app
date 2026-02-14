@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Unselected Chip - Subtle Background -->
+<shape xmlns:android="http://schemas.android.com/2000/android:00">
+    <solid android:color="#F1F3F4" />
+    <corners android:radius="16dp" />
+</shape>

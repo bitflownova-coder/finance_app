@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="#1E1E1E">
+
+    <!-- Background circle for today -->
+    <View
+        android:id="@+id/today_indicator"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_calendar_today"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_day_number"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="15"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:text="15" />
+
+    <!-- Transaction indicator dot -->
+    <View
+        android:id="@+id/transaction_indicator"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/bg_calendar_dot"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layout_indicators"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <View
+            android:id="@+id/indicator_income"
+            android:layout_width="3dp"
+            android:layout_height="3dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/indicator_income" />
+
+        <View
+            android:id="@+id/indicator_expense"
+            android:layout_width="3dp"
+            android:layout_height="3dp"
+            android:background="@drawable/indicator_expense" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_transaction_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="3"
+        android:textColor="#90CAF9"
+        android:textSize="8sp"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Balance Card - Dark Theme with Blue Gradient -->
+<shape xmlns:android="http://schemas.android.com/2000/android:00">
+    <gradient
+        android:angle="135"
+        android:startColor="#4285F4"
+        android:endColor="#2D9CDB"
+        android:type="linear" />
+    <corners android:radius="16dp" />
+</shape>

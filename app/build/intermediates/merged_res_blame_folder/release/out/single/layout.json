@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/item_insight.xml",
+        "source": "com.financemanager.app-main-69:/layout/item_insight.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_settings.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/item_goal.xml",
+        "source": "com.financemanager.app-main-69:/layout/item_goal.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_calendar.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_calendar.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_recurring.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_recurring.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_goals.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_goals.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/dialog_add_split_bill.xml",
+        "source": "com.financemanager.app-main-69:/layout/dialog_add_split_bill.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_reports.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_reports.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_pin_reset.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_pin_reset.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/dialog_transaction_filter.xml",
+        "source": "com.financemanager.app-main-69:/layout/dialog_transaction_filter.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/item_transaction.xml",
+        "source": "com.financemanager.app-main-69:/layout/item_transaction.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_bank_setup.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_bank_setup.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_transaction.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_transaction.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/item_calendar_day.xml",
+        "source": "com.financemanager.app-main-69:/layout/item_calendar_day.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/item_transaction_dashboard.xml",
+        "source": "com.financemanager.app-main-69:/layout/item_transaction_dashboard.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/item_split_bill.xml",
+        "source": "com.financemanager.app-main-69:/layout/item_split_bill.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_pin_verify.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_pin_verify.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/dialog_add_edit_account.xml",
+        "source": "com.financemanager.app-main-69:/layout/dialog_add_edit_account.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_budget.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_budget.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/calendar_grid.xml",
+        "source": "com.financemanager.app-main-69:/layout/calendar_grid.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/item_recurring_transaction.xml",
+        "source": "com.financemanager.app-main-69:/layout/item_recurring_transaction.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_dashboard.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/item_help_category.xml",
+        "source": "com.financemanager.app-main-69:/layout/item_help_category.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/dialog_add_edit_goal.xml",
+        "source": "com.financemanager.app-main-69:/layout/dialog_add_edit_goal.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_analytics.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_analytics.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/dialog_add_edit_budget.xml",
+        "source": "com.financemanager.app-main-69:/layout/dialog_add_edit_budget.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/dialog_add_contribution.xml",
+        "source": "com.financemanager.app-main-69:/layout/dialog_add_contribution.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/activity_main.xml",
+        "source": "com.financemanager.app-main-69:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_pin_setup.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_pin_setup.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/item_onboarding_page.xml",
+        "source": "com.financemanager.app-main-69:/layout/item_onboarding_page.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_register.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/item_faq.xml",
+        "source": "com.financemanager.app-main-69:/layout/item_faq.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/item_budget.xml",
+        "source": "com.financemanager.app-main-69:/layout/item_budget.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_splash.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_onboarding.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_onboarding.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_split_bill.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_split_bill.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_profile.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_insights.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_insights.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/dialog_add_edit_recurring.xml",
+        "source": "com.financemanager.app-main-69:/layout/dialog_add_edit_recurring.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/fragment_help.xml",
+        "source": "com.financemanager.app-main-69:/layout/fragment_help.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/dialog_add_edit_transaction.xml",
+        "source": "com.financemanager.app-main-69:/layout/dialog_add_edit_transaction.xml"
+    },
+    {
+        "merged": "com.financemanager.app-mergeReleaseResources-67:/layout/item_bank_account.xml",
+        "source": "com.financemanager.app-main-69:/layout/item_bank_account.xml"
+    }
+]

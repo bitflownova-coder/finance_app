@@ -1,0 +1,45 @@
+package com.financemanager.app.presentation.dashboard;
+
+import com.financemanager.app.util.SessionManager;
+import dagger.MembersInjector;
+import dagger.internal.DaggerGenerated;
+import dagger.internal.InjectedFieldSignature;
+import dagger.internal.QualifierMetadata;
+import javax.annotation.processing.Generated;
+import javax.inject.Provider;
+
+@QualifierMetadata
+@DaggerGenerated
+@Generated(
+    value = "dagger.internal.codegen.ComponentProcessor",
+    comments = "https://dagger.dev"
+)
+@SuppressWarnings({
+    "unchecked",
+    "rawtypes",
+    "KotlinInternal",
+    "KotlinInternalInJava"
+})
+public final class DashboardFragment_MembersInjector implements MembersInjector<DashboardFragment> {
+  private final Provider<SessionManager> sessionManagerProvider;
+
+  public DashboardFragment_MembersInjector(Provider<SessionManager> sessionManagerProvider) {
+    this.sessionManagerProvider = sessionManagerProvider;
+  }
+
+  public static MembersInjector<DashboardFragment> create(
+      Provider<SessionManager> sessionManagerProvider) {
+    return new DashboardFragment_MembersInjector(sessionManagerProvider);
+  }
+
+  @Override
+  public void injectMembers(DashboardFragment instance) {
+    injectSessionManager(instance, sessionManagerProvider.get());
+  }
+
+  @InjectedFieldSignature("com.financemanager.app.presentation.dashboard.DashboardFragment.sessionManager")
+  public static void injectSessionManager(DashboardFragment instance,
+      SessionManager sessionManager) {
+    instance.sessionManager = sessionManager;
+  }
+}

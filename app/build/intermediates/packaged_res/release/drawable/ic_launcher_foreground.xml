@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:translateX="27"
+        android:translateY="27">
+        <!-- Dollar sign icon -->
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M50,20 L50,88 M35,30 Q35,25 40,25 L60,25 Q65,25 65,30 Q65,35 60,35 L40,35 M35,53 Q35,48 40,48 L60,48 Q65,48 65,53 Q65,58 60,58 L40,58 M35,76 Q35,81 40,81 L60,81 Q65,81 65,86 Q65,91 60,91"
+            android:strokeWidth="4"
+            android:strokeColor="@android:color/white"/>
+    </group>
+</vector>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="background">#0F172A</color>
+    <color name="black">#000000</color>
+    <color name="border">#334155</color>
+    <color name="chart_color_1">#3B82F6</color>
+    <color name="chart_color_2">#22D3EE</color>
+    <color name="chart_color_3">#8B5CF6</color>
+    <color name="chart_color_4">#10B981</color>
+    <color name="chart_color_5">#F59E0B</color>
+    <color name="chart_color_6">#EC4899</color>
+    <color name="colorPrimary">#3B82F6</color>
+    <color name="divider">#334155</color>
+    <color name="error">#EF4444</color>
+    <color name="error_light">#1F1215</color>
+    <color name="expense_background">#1F1215</color>
+    <color name="expense_color">#EF4444</color>
+    <color name="expense_red">#EF4444</color>
+    <color name="gray">#64748B</color>
+    <color name="gray_dark">#334155</color>
+    <color name="gray_light">#334155</color>
+    <color name="gray_medium">#475569</color>
+    <color name="ic_launcher_background">#1B5E20</color>
+    <color name="income_background">#0F1F1A</color>
+    <color name="income_color">#10B981</color>
+    <color name="income_green">#10B981</color>
+    <color name="info">#3B82F6</color>
+    <color name="info_light">#1E293B</color>
+    <color name="on_background">#F1F5F9</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#DBEAFE</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_secondary_container">#CFFAFE</color>
+    <color name="on_surface">#F1F5F9</color>
+    <color name="on_surface_variant">#94A3B8</color>
+    <color name="primary">#3B82F6</color>
+    <color name="primary_container">#1E293B</color>
+    <color name="primary_dark">#1E40AF</color>
+    <color name="primary_light">#60A5FA</color>
+    <color name="primary_variant">#2563EB</color>
+    <color name="ripple_light">#183B82F6</color>
+    <color name="secondary">#22D3EE</color>
+    <color name="secondary_container">#164E63</color>
+    <color name="secondary_variant">#06B6D4</color>
+    <color name="success">#10B981</color>
+    <color name="success_green">#10B981</color>
+    <color name="success_light">#0F1F1A</color>
+    <color name="surface">#1E293B</color>
+    <color name="surface_card">#1E293B</color>
+    <color name="surface_variant">#334155</color>
+    <color name="text_hint">#64748B</color>
+    <color name="text_primary">#F1F5F9</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="vault_border">#334155</color>
+    <color name="vault_border_warm">#475569</color>
+    <color name="vault_brass">#3B82F6</color>
+    <color name="vault_brass_dim">#60A5FA</color>
+    <color name="vault_gold">#F59E0B</color>
+    <color name="vault_parchment">#F1F5F9</color>
+    <color name="vault_steel">#334155</color>
+    <color name="vault_surface_raised">#334155</color>
+    <color name="warning">#F59E0B</color>
+    <color name="warning_light">#1F1A12</color>
+    <color name="warning_orange">#F59E0B</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xsmall">4dp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_xlarge">24sp</dimen>
+    <dimen name="text_size_xsmall">10sp</dimen>
+    <string name="account_name">Account Name</string>
+    <string name="account_number">Account Number</string>
+    <string name="account_type">Account Type</string>
+    <string name="accounts">Bank Accounts</string>
+    <string name="active">Active</string>
+    <string name="add_account">Add Account</string>
+    <string name="add_recurring">Add Auto Payment</string>
+    <string name="add_recurring_transaction">Add Auto Payment</string>
+    <string name="add_split_bill">Split a Bill</string>
+    <string name="add_transaction">Add New</string>
+    <string name="add_transactions_to_see_insights">Add more transactions to see personalized tips</string>
+    <string name="all">All</string>
+    <string name="all_insights">All Tips</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="amount">Amount</string>
+    <string name="app_name">BitFlow Finance</string>
+    <string name="balance">Balance</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="bank_setup_note">You can add more accounts later from your profile. This sets your starting balance.</string>
+    <string name="biweekly">Every 2 Weeks</string>
+    <string name="budget">Budget</string>
+    <string name="budget_amount">Budget Amount</string>
+    <string name="budget_name">Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="category">Category</string>
+    <string name="choose_theme">Choose Theme</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="continue_text">CONTINUE</string>
+    <string name="credit">Money In</string>
+    <string name="critical">Urgent</string>
+    <string name="currency_format">₹%.2f</string>
+    <string name="daily">Daily</string>
+    <string name="dashboard">Home</string>
+    <string name="date">Date</string>
+    <string name="debit">Money Out</string>
+    <string name="delete">Delete</string>
+    <string name="delete_recurring_transaction_message">Future payments will stop. Past payments won\'t change.</string>
+    <string name="delete_recurring_transaction_title">Remove auto payment?</string>
+    <string name="description">Note</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="edit">Edit</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_recurring_transaction">Edit Auto Payment</string>
+    <string name="email">Email</string>
+    <string name="end_date">End Date</string>
+    <string name="enter_pin_subtitle">Enter your 4-digit PIN to continue</string>
+    <string name="enter_pin_title">Enter\nyour PIN</string>
+    <string name="error">Error</string>
+    <string name="error_empty_description">Please add a note</string>
+    <string name="error_empty_field">Please fill this in</string>
+    <string name="error_end_date_before_start">End date must be after start date</string>
+    <string name="error_invalid_amount">Please enter a valid amount</string>
+    <string name="error_invalid_email">Please enter a valid email</string>
+    <string name="error_login_failed">Login failed. Please check what you entered</string>
+    <string name="error_network">No internet. Please check your connection</string>
+    <string name="error_password_mismatch">Passwords don\'t match</string>
+    <string name="error_registration_failed">Something went wrong. Please try again</string>
+    <string name="error_unknown">Something went wrong. Please try again</string>
+    <string name="error_user_not_logged_in">Please set up your account first</string>
+    <string name="error_weak_password">Password needs at least 8 characters with uppercase, lowercase, number, and special character</string>
+    <string name="expense">Money Out</string>
+    <string name="expenses">Spending</string>
+    <string name="faq">Common Questions</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_pin">FORGOT PIN?</string>
+    <string name="frequency">How Often</string>
+    <string name="full_name">Your Name</string>
+    <string name="help_support">Help</string>
+    <string name="high">Important</string>
+    <string name="ifsc_code">IFSC Code</string>
+    <string name="income">Money In</string>
+    <string name="initial_amount">Starting Amount</string>
+    <string name="insight_icon">Tip icon</string>
+    <string name="insights">Tips</string>
+    <string name="loading">Loading…</string>
+    <string name="login">Login</string>
+    <string name="logout">Log Out</string>
+    <string name="low">FYI</string>
+    <string name="medium">Good to Know</string>
+    <string name="monthly">Monthly</string>
+    <string name="nav_accounts">Accounts</string>
+    <string name="nav_analytics">Reports</string>
+    <string name="nav_budget">Budgets</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_transactions">History</string>
+    <string name="next_occurrence">Next Date</string>
+    <string name="no">No</string>
+    <string name="no_end_date">No end date</string>
+    <string name="no_insights_available">No tips yet</string>
+    <string name="no_recurring_transactions">No Auto Payments</string>
+    <string name="no_recurring_transactions_desc">Set up auto payments for regular money in or out</string>
+    <string name="no_split_bills">No split bills yet</string>
+    <string name="ok">OK</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_image">Onboarding illustration</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="password">Password</string>
+    <string name="percentage_format">%+.1f%%</string>
+    <string name="phone">Phone Number</string>
+    <string name="predicted_next_month">Expected Next Month Spending</string>
+    <string name="pref_theme_dark">dark</string>
+    <string name="pref_theme_key">theme_preference</string>
+    <string name="pref_theme_light">light</string>
+    <string name="pref_theme_system">system</string>
+    <string name="privacy_alert_message">This app is designed for tracking your personal expenses only. We do not connect to your real bank accounts or access any of your banking data. All information you enter stays securely on your device.</string>
+    <string name="privacy_alert_title">Privacy &amp; Security</string>
+    <string name="process">Run</string>
+    <string name="process_recurring_now_message">This will create all pending payments right now.</string>
+    <string name="process_recurring_now_title">Run now?</string>
+    <string name="profile">My Profile</string>
+    <string name="quarterly">Every 3 Months</string>
+    <string name="recent_transactions">Recent History</string>
+    <string name="recurring_transaction_activated">Auto payment turned on</string>
+    <string name="recurring_transaction_added">Auto payment added</string>
+    <string name="recurring_transaction_deleted">Auto payment removed</string>
+    <string name="recurring_transaction_help">Auto payments will be created for you based on how often you choose</string>
+    <string name="recurring_transaction_paused">Auto payment paused</string>
+    <string name="recurring_transaction_updated">Auto payment updated</string>
+    <string name="recurring_transactions">Auto Payments</string>
+    <string name="recurring_transactions_processed">%d payment(s) created</string>
+    <string name="register">Register</string>
+    <string name="remaining">Left</string>
+    <string name="retry">Retry</string>
+    <string name="save">Save</string>
+    <string name="savings">Saved</string>
+    <string name="select_date">Pick a Date</string>
+    <string name="set_budget">Set Budget</string>
+    <string name="set_pin">SET PIN</string>
+    <string name="settings">Settings</string>
+    <string name="setup_bank_title">Add your\nbank</string>
+    <string name="setup_pin_title">Set your\nPIN</string>
+    <string name="setup_profile_title">Let\'s get\nto know\nyou</string>
+    <string name="smart_insights">Tips</string>
+    <string name="spent">Used</string>
+    <string name="start_date">Start Date</string>
+    <string name="step_1_of_3">STEP 1 OF 3</string>
+    <string name="step_2_of_3">STEP 2 OF 3</string>
+    <string name="step_3_of_3">STEP 3 OF 3</string>
+    <string name="success">Done!</string>
+    <string name="success_account_added">Account added!</string>
+    <string name="success_budget_set">Budget set!</string>
+    <string name="success_login">You\'re in!</string>
+    <string name="success_registration">All set!</string>
+    <string name="success_transaction_added">Added!</string>
+    <string name="theme_dark">Dark Theme</string>
+    <string name="theme_light">Light Theme</string>
+    <string name="theme_settings">Theme Settings</string>
+    <string name="theme_system">System Default</string>
+    <string name="this_month">This Month</string>
+    <string name="total_balance">Total Money</string>
+    <string name="transaction_details">Details</string>
+    <string name="transaction_type">Type</string>
+    <string name="transactions">History</string>
+    <string name="type">Type</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="view_all">See All</string>
+    <string name="weekly">Weekly</string>
+    <string name="yearly">Yearly</string>
+    <string name="yes">Yes</string>
+    <style name="Base.Theme.FinanceManager" parent="Theme.Material3.Dark.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+
+        
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container</item>
+
+        
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">false</item>
+
+        
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+
+        
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+
+        
+        <item name="materialCardViewStyle">@style/Widget.Vault.CardView</item>
+        <item name="materialButtonStyle">@style/Widget.Vault.Button</item>
+        <item name="textInputStyle">@style/Widget.Vault.TextInputLayout</item>
+        <item name="chipStyle">@style/Widget.Vault.Chip</item>
+
+        
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+    <style name="ShapeAppearance.Vault.FAB" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+    <style name="Theme.FinanceManager" parent="Base.Theme.FinanceManager"/>
+    <style name="Theme.FinanceManager.Splash" parent="Theme.FinanceManager">
+        <item name="android:windowBackground">@drawable/splash_layout</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+    <style name="Vault.Text" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/vault_parchment</item>
+    </style>
+    <style name="Vault.Text.Amount">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vault_parchment</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+    <style name="Vault.Text.Body">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/on_surface_variant</item>
+    </style>
+    <style name="Vault.Text.Caption">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/text_hint</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+    <style name="Vault.Text.Display">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/vault_parchment</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+    <style name="Vault.Text.SectionLabel">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.15</item>
+        <item name="android:textColor">@color/vault_brass_dim</item>
+    </style>
+    <style name="Vault.Text.ToolbarTitle">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.15</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="Widget.Vault.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="elevation">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="Widget.Vault.CardView" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/surface_variant</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardCornerRadius">4dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/vault_border</item>
+        <item name="contentPadding">0dp</item>
+    </style>
+    <style name="Widget.Vault.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/primary_container</item>
+        <item name="android:textColor">@color/on_primary_container</item>
+        <item name="chipCornerRadius">4dp</item>
+        <item name="chipStrokeColor">@color/vault_border_warm</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+    <style name="Widget.Vault.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="boxCornerRadiusTopStart">4dp</item>
+        <item name="boxCornerRadiusTopEnd">4dp</item>
+        <item name="boxCornerRadiusBottomStart">4dp</item>
+        <item name="boxCornerRadiusBottomEnd">4dp</item>
+    </style>
+    <style name="Widget.Vault.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/background</item>
+        <item name="titleTextColor">@color/vault_parchment</item>
+        <item name="titleTextAppearance">@style/Vault.Text.ToolbarTitle</item>
+    </style>
+</resources>

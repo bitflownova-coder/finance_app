@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Login Screen</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#007AFF",
+                        "electric-blue": "#2E90FF",
+                        "background-dark": "#000000",
+                        "card-dark": "#121212",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        body {
+            font-family: 'Manrope', sans-serif;
+            min-height: max(884px, 100dvh);
+        }
+        .ios-blur {
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        :root {
+            --primary-blue: #2E90FF;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-dark text-white min-h-screen flex flex-col font-display selection:bg-electric-blue/30">
+<div class="flex items-center justify-between px-6 py-4">
+<button class="flex items-center justify-center size-10 rounded-full bg-white/10 hover:bg-white/20 transition-colors">
+<span class="material-symbols-outlined text-2xl text-white">arrow_back_ios_new</span>
+</button>
+<div class="h-10 w-10 flex items-center justify-center">
+<div class="size-9 bg-electric-blue rounded-xl flex items-center justify-center shadow-[0_0_15px_rgba(46,144,255,0.4)]">
+<span class="material-symbols-outlined text-black font-bold text-xl">account_balance_wallet</span>
+</div>
+</div>
+<div class="size-10"></div>
+</div>
+<div class="flex-1 flex flex-col px-8 pt-8 max-w-md mx-auto w-full">
+<header class="mb-12 text-center">
+<h1 class="text-4xl font-bold tracking-tight mb-3 bg-gradient-to-b from-white to-slate-400 bg-clip-text text-transparent">Welcome Back</h1>
+<p class="text-slate-400 text-lg">Manage your wealth with ease.</p>
+</header>
+<div class="space-y-6">
+<div class="flex flex-col gap-2">
+<label class="text-sm font-semibold text-slate-400 ml-1 uppercase tracking-wider">Email Address</label>
+<div class="relative group">
+<div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-slate-500 group-focus-within:text-electric-blue transition-colors">mail</span>
+</div>
+<input class="w-full bg-card-dark border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-base focus:ring-2 focus:ring-electric-blue/20 focus:border-electric-blue transition-all outline-none placeholder:text-slate-600" placeholder="name@example.com" type="email"/>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-center ml-1">
+<label class="text-sm font-semibold text-slate-400 uppercase tracking-wider">Password</label>
+<a class="text-xs font-bold text-electric-blue hover:text-white transition-colors" href="#">Forgot Password?</a>
+</div>
+<div class="relative group">
+<div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-slate-500 group-focus-within:text-electric-blue transition-colors">lock</span>
+</div>
+<input class="w-full bg-card-dark border border-white/10 rounded-2xl py-4 pl-12 pr-12 text-base focus:ring-2 focus:ring-electric-blue/20 focus:border-electric-blue transition-all outline-none placeholder:text-slate-600" placeholder="••••••••" type="password"/>
+<button class="absolute inset-y-0 right-0 pr-4 flex items-center text-slate-500 hover:text-white transition-colors">
+<span class="material-symbols-outlined">visibility_off</span>
+</button>
+</div>
+</div>
+<button class="w-full bg-electric-blue text-black font-bold py-4 rounded-2xl text-lg shadow-[0_8px_30px_rgb(46,144,255,0.3)] hover:bg-white transition-all active:scale-[0.98] mt-4">
+            Login
+        </button>
+<div class="flex items-center gap-4 py-4">
+<div class="h-px bg-white/10 flex-1"></div>
+<span class="text-[10px] font-bold text-slate-500 uppercase tracking-[0.2em]">Or continue with</span>
+<div class="h-px bg-white/10 flex-1"></div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<button class="flex items-center justify-center gap-2 py-3.5 px-4 rounded-2xl border border-white/10 bg-card-dark hover:bg-white/5 transition-colors">
+<svg class="w-5 h-5 text-white" viewBox="0 0 24 24">
+<path d="M17.05,20.28c-.96,.95-2.06,1.44-3.3,1.44s-2.35-.48-3.3-1.44c-.95-.96-2.06-1.44-3.3-1.44s-2.35,.48-3.3,1.44c-.96,.95-2.06,1.44-3.3,1.44s-2.35-.48-3.3-1.44" fill="currentColor"></path>
+<path d="M17.35,17c-1.1,0-2,0.8-2.1,1.9c0,0,0,0,0,0.1c0,1.1,0.9,2,2,2.1c0,0,0.1,0,0.1,0c1.1,0,2-0.8,2.1-1.9c0,0,0,0,0-0.1C19.45,18,18.55,17,17.35,17L17.35,17z" fill="currentColor"></path>
+<path d="M12.15,12.1c-1.1,0-2,0.8-2.1,1.9c0,0,0,0,0,0.1c0,1.1,0.9,2,2,2.1c0,0,0.1,0,0.1,0c1.1,0,2-0.8,2.1-1.9c0,0,0,0,0-0.1C14.25,13.1,13.35,12.1,12.15,12.1L12.15,12.1z" fill="currentColor"></path>
+<path d="M6.95,7.1c-1.1,0-2,0.8-2.1,1.9c0,0,0,0,0,0.1c0,1.1,0.9,2,2,2.1c0,0,0.1,0,0.1,0c1.1,0,2-0.8,2.1-1.9c0,0,0,0,0-0.1C9.05,8.1,8.15,7.1,6.95,7.1L6.95,7.1z" fill="currentColor"></path>
+</svg>
+<span class="text-sm font-semibold">Apple</span>
+</button>
+<button class="flex items-center justify-center gap-2 py-3.5 px-4 rounded-2xl border border-white/10 bg-card-dark hover:bg-white/5 transition-colors">
+<svg class="w-5 h-5" viewBox="0 0 24 24">
+<path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path>
+<path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path>
+<path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"></path>
+<path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path>
+</svg>
+<span class="text-sm font-semibold">Google</span>
+</button>
+</div>
+</div>
+<div class="flex-1"></div>
+<footer class="pb-10 pt-6 text-center">
+<p class="text-slate-500 font-medium">
+            Don't have an account? 
+            <a class="text-electric-blue font-bold hover:underline ml-1" href="#">Sign Up</a>
+</p>
+</footer>
+</div>
+<div class="fixed top-0 left-0 w-full h-full pointer-events-none -z-10 overflow-hidden">
+<div class="absolute -top-24 -left-24 w-96 h-96 bg-electric-blue/10 blur-[120px] rounded-full"></div>
+<div class="absolute top-1/2 -right-24 w-64 h-64 bg-electric-blue/5 blur-[100px] rounded-full"></div>
+</div>
+<div class="h-8 w-full bg-black"></div>
+
+</body></html>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardInsight"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/bg_vault_card"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Priority Indicator -->
+    <View
+        android:id="@+id/viewPriorityIndicator"
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="12dp"
+        android:background="@color/expense_red" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Top Row: Icon + Title + Priority -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_vault_icon_container">
+
+                <ImageView
+                    android:id="@+id/imageIcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/insight_icon"
+                    android:padding="6dp"
+                    app:tint="@color/vault_brass"
+                    tools:src="@drawable/ic_warning" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/vault_parchment"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="Budget Exceeded" />
+
+            <TextView
+                android:id="@+id/textPriority"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_vault_expense_tag"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textColor="@color/expense_red"
+                android:textSize="9sp"
+                android:textStyle="bold"
+                tools:text="CRITICAL" />
+        </LinearLayout>
+
+        <!-- Priority Badge (kept as container for compatibility) -->
+        <LinearLayout
+            android:id="@+id/cardPriority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/textDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="13sp"
+            tools:text="Your food budget of ₹5,000 has been exceeded by ₹500" />
+
+        <!-- Amount and Percentage -->
+        <LinearLayout
+            android:id="@+id/layoutAmounts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textColor="@color/vault_parchment"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:text="₹500"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textPercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="monospace"
+                android:textColor="@color/expense_red"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:text="+10%"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+        <!-- Action Button -->
+        <TextView
+            android:id="@+id/buttonAction"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_vault_button_ghost"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.1"
+            android:text="REVIEW BUDGET"
+            android:textColor="@color/vault_brass"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout>

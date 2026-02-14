@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/bg_vault_card"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Status Indicator -->
+    <View
+        android:id="@+id/viewStatusIndicator"
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="12dp"
+        android:background="@color/income_green" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Top Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- Type Icon -->
+            <FrameLayout
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_vault_icon_container">
+
+                <ImageView
+                    android:id="@+id/iconType"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/transaction_type"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_expense"
+                    app:tint="@color/vault_brass" />
+            </FrameLayout>
+
+            <!-- Description -->
+            <TextView
+                android:id="@+id/textDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-condensed"
+                android:maxLines="1"
+                android:textColor="@color/vault_parchment"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="Monthly Rent" />
+
+            <!-- Amount -->
+            <TextView
+                android:id="@+id/textAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textColor="@color/vault_parchment"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="₹10,000"
+                tools:textColor="@color/expense_red" />
+        </LinearLayout>
+
+        <!-- Tags Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_vault_icon_container"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:letterSpacing="0.08"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="10sp"
+                tools:text="HOUSING" />
+
+            <TextView
+                android:id="@+id/textFrequency"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/bg_vault_icon_container"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textColor="@color/vault_brass"
+                android:textSize="10sp"
+                tools:text="MONTHLY" />
+        </LinearLayout>
+
+        <!-- Next Occurrence -->
+        <TextView
+            android:id="@+id/textNextOccurrence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawablePadding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="11sp"
+            app:drawableStartCompat="@drawable/ic_calendar"
+            app:drawableTint="@color/vault_brass_dim"
+            tools:text="Next: Jan 15, 2025" />
+
+        <!-- End Date -->
+        <TextView
+            android:id="@+id/textEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:drawablePadding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="11sp"
+            android:visibility="gone"
+            app:drawableStartCompat="@drawable/ic_calendar"
+            app:drawableTint="@color/expense_red"
+            tools:text="Ends: Dec 31, 2025"
+            tools:visibility="visible" />
+
+        <!-- Divider -->
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/vault_border" />
+
+        <!-- Actions Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- Active Switch -->
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switchActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/active"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="12sp"
+                app:thumbTint="@color/vault_brass"
+                app:trackTint="@color/vault_steel" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- Edit Button -->
+            <TextView
+                android:id="@+id/btnEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-condensed"
+                android:letterSpacing="0.1"
+                android:padding="8dp"
+                android:text="@string/edit"
+                android:textColor="@color/vault_brass"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <!-- Delete Button -->
+            <TextView
+                android:id="@+id/btnDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-condensed"
+                android:letterSpacing="0.1"
+                android:padding="8dp"
+                android:text="@string/delete"
+                android:textColor="@color/expense_red"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

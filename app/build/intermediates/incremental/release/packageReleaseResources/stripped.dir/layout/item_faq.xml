@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Question -->
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/vault_parchment"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:drawableEnd="@android:drawable/arrow_down_float"
+        android:drawablePadding="8dp"
+        tools:text="How do I create an account?" />
+
+    <!-- Answer (initially hidden) -->
+    <TextView
+        android:id="@+id/tv_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/on_surface_variant"
+        android:textSize="13sp"
+        android:lineSpacingExtra="4dp"
+        android:visibility="gone"
+        tools:text="Tap 'Register' on the login screen, enter your email and password, and follow the prompts."
+        tools:visibility="visible" />
+
+</LinearLayout>

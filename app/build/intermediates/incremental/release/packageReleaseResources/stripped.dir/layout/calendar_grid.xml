@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1E1E1E"
+    android:columnCount="7"
+    android:rowCount="6"
+    android:paddingBottom="8dp">
+    
+    <!-- This will be populated by RecyclerView adapter -->
+</GridLayout>

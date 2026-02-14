@@ -1,0 +1,71 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Chart background panel -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,25 L180,25 C185,25 190,30 190,35 L190,165 C190,170 185,175 180,175 L20,175 C15,175 10,170 10,165 L10,35 C10,30 15,25 20,25 Z" />
+
+    <!-- Header bar -->
+    <path
+        android:fillColor="#1E40AF"
+        android:pathData="M10,35 C10,30 15,25 20,25 L180,25 C185,25 190,30 190,35 L190,48 L10,48 Z" />
+
+    <!-- Header dots -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M25,36 A4,4,0,1,1,25,35.9 Z M38,36 A4,4,0,1,1,38,35.9 Z M51,36 A4,4,0,1,1,51,35.9 Z" />
+
+    <!-- Grid lines -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M30,80 L170,80 L170,81 L30,81 Z M30,105 L170,105 L170,106 L30,106 Z M30,130 L170,130 L170,131 L30,131 Z" />
+
+    <!-- Bar 1 (short) -->
+    <path
+        android:fillColor="#DBEAFE"
+        android:pathData="M40,115 L60,115 L60,155 L40,155 Z" />
+
+    <!-- Bar 2 (medium) -->
+    <path
+        android:fillColor="#93C5FD"
+        android:pathData="M70,95 L90,95 L90,155 L70,155 Z" />
+
+    <!-- Bar 3 (tall) -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M100,75 L120,75 L120,155 L100,155 Z" />
+
+    <!-- Bar 4 (tallest) -->
+    <path
+        android:fillColor="#1E40AF"
+        android:pathData="M130,60 L150,60 L150,155 L130,155 Z" />
+
+    <!-- Trend line (thick) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M48,110 L78,90 L108,70 L138,56 L140,60 L110,74 L80,94 L50,114 Z" />
+
+    <!-- Trend dots -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M50,112 A5,5,0,1,1,50,111.9 Z M80,92 A5,5,0,1,1,80,91.9 Z M110,72 A5,5,0,1,1,110,71.9 Z M140,58 A5,5,0,1,1,140,57.9 Z" />
+
+    <!-- Arrow head at end of trend -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M140,58 L150,50 L148,62 Z" />
+
+    <!-- Growth percentage badge -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M155,55 L180,55 C183,55 185,57 185,60 L185,72 C185,75 183,77 180,77 L155,77 C152,77 150,75 150,72 L150,60 C150,57 152,55 155,55 Z" />
+
+    <!-- Up arrow in badge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M167,61 L173,68 L170,68 L170,73 L164,73 L164,68 L161,68 Z" />
+</vector>

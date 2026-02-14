@@ -1,0 +1,279 @@
+Complete Application Development - Phase Plan
+Phase 1: Foundation & Setup (Week 1)
+Goal: Project setup and basic infrastructure
+
+Create Android Studio project (Kotlin)
+Set up dependencies (Room, Hilt, Coroutines, Navigation)
+Design complete database schema (all entities)
+Create base architecture (MVVM structure folders)
+Set up Hilt dependency injection
+Create navigation graph structure
+Design color schemes (light + dark theme)
+Deliverable: Empty app with structure ready
+
+Phase 2: Authentication System (Week 1)
+Goal: User can register and login
+
+Create User entity and DAO
+Implement UserRepository
+Build Login screen UI
+Build Register screen UI
+Password encryption with BCrypt
+Email validation
+Session management with SharedPreferences
+Splash screen that checks if user logged in
+Deliverable: Working login/register flow
+
+Phase 3: Core Account Management (Week 2)
+Goal: Manage bank accounts
+
+Create BankAccount entity and DAO
+Build Profile screen UI
+Display user information
+Add/Edit/Delete bank accounts
+Store account name, bank name, balance
+Set one account as "Main Account"
+Calculate total balance across all accounts
+Deliverable: Users can manage their accounts
+
+Phase 4: Basic Transaction System (Week 2-3)
+Goal: Add and view transactions
+
+Create Transaction entity and DAO
+Build Add Transaction dialog/screen
+Input: amount, description, category (dropdown), type (debit/credit)
+Account selector for multiple accounts
+Implement automatic balance deduction/addition
+Create transaction list view (RecyclerView)
+Edit and Delete transaction functionality
+Transaction detail view
+Deliverable: Full CRUD operations on transactions
+
+Phase 5: Dashboard/Home Screen (Week 3)
+Goal: Main screen showing overview
+
+Build dashboard layout
+Display total balance card
+Display recent transactions (last 10)
+Show quick stats: total income, total expenses
+FAB button for quick "Add Transaction"
+Pull-to-refresh functionality
+Navigate to other screens
+Deliverable: Functional home screen
+
+Phase 6: Budget Management (Week 4)
+Goal: Set and track budgets
+
+Create Budget entity and DAO
+Build Budget screen UI
+Set budget amount and period (Monthly/Yearly)
+Track spent amount automatically
+Progress bar showing budget usage
+Edit/Delete budget
+Auto-deduct from budget when transaction added
+Budget remaining card on dashboard
+Deliverable: Budget tracking works
+
+Phase 7: Notifications System (Week 4)
+Goal: Notify users of important events
+
+Set up notification channels
+Transaction added notification (shows remaining balance)
+Budget alert at 80% usage
+Budget exceeded alert at 100%
+Notification preferences in settings
+Request notification permissions (Android 13+)
+Deliverable: Smart notifications working
+
+Phase 8: Search & Filter (Week 5)
+Goal: Find transactions easily
+
+Implement search functionality (SearchView)
+Search by description, category, amount
+Basic filters: date range, category, type
+Create filter bottom sheet UI
+Advanced filters: amount range, multiple categories
+Save filter presets to database
+Quick filter chips
+Deliverable: Powerful search and filtering
+
+Phase 9: Analytics & Charts (Week 5-6)
+Goal: Visual data representation
+
+Integrate MPAndroidChart library
+Create pie chart for category-wise spending
+Create bar chart for monthly comparison
+Create line chart for spending trends
+Summary screen with date range picker
+Month-end summary report
+Category breakdown view
+Deliverable: Visual analytics working
+
+Phase 10: Dark Mode & UI Polish (Week 6)
+Goal: Better visual experience
+
+Implement dark theme resources
+Theme toggle in settings
+Create empty state illustrations
+Add loading states (shimmer effect)
+Screen transitions and animations
+Chart animations
+Card entry/exit animations
+Test all screens in both themes
+Deliverable: Polished UI with dark mode
+
+Phase 11: Onboarding & Help (Week 7)
+Goal: Guide new users
+
+Create onboarding screens (ViewPager2)
+4-5 intro slides with Lottie animations
+First-time tutorial flow
+Tooltips for complex features
+Help section in settings
+Re-watchable tutorials
+Skip button for returning users
+Deliverable: User-friendly onboarding
+
+Phase 12: Recurring Transactions (Week 7)
+Goal: Auto-add regular expenses
+
+Create RecurringTransaction entity
+Add "Make Recurring" toggle on Add Transaction
+Set frequency (daily, weekly, monthly, yearly)
+WorkManager setup for auto-adding
+Daily check for due recurring transactions
+Notification when auto-added
+Pause/Resume/Delete recurring transactions
+View all recurring transactions list
+Deliverable: Recurring transactions automated
+
+Phase 13: Smart Insights (Week 8)
+Goal: AI-powered spending insights
+
+Query and compare month-over-month data
+Generate insights (30% more spent on Food)
+Unused subscription detection
+Spending pattern predictions
+Display insights cards on dashboard
+Insight detail view with charts
+Budget adherence score calculation
+Deliverable: Smart insights showing
+
+Phase 14: Export & Reports (Week 8)
+Goal: Generate and share reports
+
+Implement CSV export (transaction data)
+Implement Excel export (Apache POI)
+Generate PDF reports (iText library)
+Date range selection for exports
+Share receipt images for transactions
+Email report functionality
+Save to device storage
+Deliverable: Export and sharing works
+
+Phase 15: ML Auto-Categorization (Week 9)
+Goal: Smart category suggestions
+
+Create training dataset (descriptions → categories)
+Integrate TensorFlow Lite
+Train text classification model
+Implement on-device prediction
+Show category suggestions when adding transaction
+User feedback to improve model
+Fallback keyword-based categorization
+Deliverable: Smart category suggestions
+
+Phase 16: Goals/Savings (Week 9)
+Goal: Track savings goals
+
+Create SavingsGoal entity
+Build Goals screen UI
+Add/Edit/Delete goals
+Set target amount and deadline
+Manual contribution to goals
+Progress tracking with visual indicators
+Goal achievement celebration
+Link transactions to goals
+Deliverable: Savings goal tracking
+
+Phase 17: Receipt Management (Week 10)
+Goal: Attach and scan receipts
+
+Add photo storage for transactions
+Camera integration (Intent or CameraX)
+Gallery picker
+Store photos in app storage
+Integrate ML Kit Text Recognition
+OCR to extract amounts from receipts
+Receipt gallery view
+Delete/replace receipt photos
+Deliverable: Receipt management complete
+
+Phase 18: Bill Splitting (Week 10)
+Goal: Split expenses with friends
+
+Create SplitTransaction and SplitParticipant entities
+"Split Bill" option after transaction
+Add participants (manual or contacts)
+Equal or custom split amounts
+Track payment status
+Payment reminders
+Share payment request via WhatsApp/SMS
+Settlement summary
+Deliverable: Bill splitting functional
+
+Phase 19: Calendar View (Week 11)
+Goal: Calendar-based transaction view
+
+Integrate MaterialCalendarView library
+Display transactions on calendar dates
+Color-coded dots for transaction days
+Tap date to view transactions
+Month/Week view toggle
+Filter calendar by category
+Add future planned expenses
+Swipe navigation between months
+Deliverable: Calendar view working
+
+Phase 20: Advanced Features (Week 11-12)
+Goal: Performance and extras
+
+Database indexing optimization
+Implement Paging 3 for transaction lists
+RecyclerView optimizations (DiffUtil)
+Dashboard data caching
+WorkManager for heavy calculations
+Settings screen (preferences)
+Biometric authentication option
+App backup/restore functionality
+About screen with version info
+Deliverable: Optimized and feature-complete
+
+Phase 21: Testing & Bug Fixes (Week 12-13)
+Goal: Quality assurance
+
+Unit tests for ViewModels
+Unit tests for Repositories
+Database tests
+UI tests for critical flows
+Test edge cases (zero balance, negative amounts)
+Test on different screen sizes
+Test on different Android versions (API 24-34)
+Fix bugs and crashes
+Memory leak checks
+Deliverable: Stable, tested app
+
+Phase 22: Final Polish & Launch Prep (Week 13-14)
+Goal: Production ready
+
+App icon design
+Splash screen polish
+Performance profiling
+Error handling improvements
+Privacy policy creation
+App store screenshots
+App store description
+Play Store listing setup
+Generate signed APK/AAB
+Beta testing with users
+Deliverable: Production-ready app

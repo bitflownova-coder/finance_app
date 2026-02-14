@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Professional Card Background - Light Theme -->
+<shape xmlns:android="http://schemas.android.com/2000/android:00">
+    <solid android:color="@color/surface" />
+    <corners android:radius="12dp" />
+</shape>

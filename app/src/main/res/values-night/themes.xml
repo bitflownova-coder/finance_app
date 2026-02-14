@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- ==================== GOOGLE PAY DARK THEME - BLACK & BLUE ==================== -->
+    <style name="Base.Theme.FinanceManager" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary brand color - Electric Blue on Black -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container</item>
+        
+        <!-- Status bar - Pure Black like GPay -->
+        <item name="android:statusBarColor">@color/status_bar_dark</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        
+        <!-- Background colors - Pure Black -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        
+        <!-- Error color -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        
+        <!-- Card & Widget styles -->
+        <item name="materialCardViewStyle">@style/Widget.App.CardView.Dark</item>
+        <item name="materialButtonStyle">@style/Widget.App.Button.Dark</item>
+        <item name="textInputStyle">@style/Widget.App.TextInputLayout.Dark</item>
+        <item name="chipStyle">@style/Widget.App.Chip.Dark</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.App.BottomSheetDialog</item>
+        
+        <!-- Text appearance - High contrast -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        
+        <!-- Elevation overlay for Material 3 -->
+        <item name="elevationOverlayEnabled">true</item>
+        <item name="elevationOverlayColor">@color/elevation_overlay</item>
+        
+        <!-- Window background - Pure Black -->
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="Theme.FinanceManager" parent="Base.Theme.FinanceManager" />
+    
+    <!-- Splash Screen Theme -->
+    <style name="Theme.FinanceManager.Splash" parent="Theme.FinanceManager">
+        <item name="android:windowBackground">@drawable/splash_layout</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+    
+    <!-- ==================== CUSTOM WIDGETS - DARK THEME ==================== -->
+    
+    <!-- Professional Card - Dark Gray on Black -->
+    <style name="Widget.App.CardView.Dark" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/surface_card</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="strokeColor">@color/card_stroke_dark</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+    
+    <!-- Primary Button - Bright Blue on Black -->
+    <style name="Widget.App.Button.Dark" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/button_primary</item>
+        <item name="android:textColor">@color/button_text_primary</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="elevation">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    
+    <!-- Text Input - Dark Theme -->
+    <style name="Widget.App.TextInputLayout.Dark" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/text_secondary_dark</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+    
+    <!-- Chip Style - Dark -->
+    <style name="Widget.App.Chip.Dark" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/primary_container</item>
+        <item name="android:textColor">@color/on_primary_container</item>
+        <item name="chipCornerRadius">16dp</item>
+        <item name="chipStrokeWidth">0dp</item>
+    </style>
+    
+    <!-- Bottom Sheet Dialog - Dark -->
+    <style name="ThemeOverlay.App.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.App.BottomSheet</item>
+    </style>
+    
+    <style name="Widget.App.BottomSheet" parent="Widget.Material3.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.App.BottomSheet</item>
+        <item name="backgroundTint">@color/surface_variant</item>
+    </style>
+    
+    <style name="ShapeAppearance.App.BottomSheet" parent="">
+        <item name="cornerSize">16dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+</resources>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/surface"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Filter Transactions"
+            android:textColor="@color/vault_parchment"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/vault_border" />
+
+        <!-- Search Query -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.15"
+            android:text="SEARCH"
+            android:textColor="@color/vault_brass_dim"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="20dp"
+            app:boxBackgroundColor="@color/surface_variant"
+            app:boxCornerRadiusBottomEnd="4dp"
+            app:boxCornerRadiusBottomStart="4dp"
+            app:boxCornerRadiusTopEnd="4dp"
+            app:boxCornerRadiusTopStart="4dp"
+            app:boxStrokeColor="@color/vault_border"
+            app:boxStrokeWidth="1dp"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editSearchQuery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:hint="Description or category"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/vault_parchment"
+                android:textColorHint="@color/on_surface_variant"
+                android:textSize="14sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Date Range -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.15"
+            android:text="DATE RANGE"
+            android:textColor="@color/vault_brass_dim"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnStartDate"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_vault_button_ghost"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Start Date"
+                android:textColor="@color/vault_brass"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/btnEndDate"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_vault_button_ghost"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="End Date"
+                android:textColor="@color/vault_brass"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <!-- Amount Range -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.15"
+            android:text="AMOUNT RANGE"
+            android:textColor="@color/vault_brass_dim"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                app:boxBackgroundColor="@color/surface_variant"
+                app:boxCornerRadiusBottomEnd="4dp"
+                app:boxCornerRadiusBottomStart="4dp"
+                app:boxCornerRadiusTopEnd="4dp"
+                app:boxCornerRadiusTopStart="4dp"
+                app:boxStrokeColor="@color/vault_border"
+                app:boxStrokeWidth="1dp"
+                app:hintEnabled="false"
+                app:prefixText="₹ "
+                app:prefixTextColor="@color/vault_brass_dim">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editMinAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:hint="Min"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/vault_parchment"
+                    android:textColorHint="@color/on_surface_variant"
+                    android:textSize="13sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:boxBackgroundColor="@color/surface_variant"
+                app:boxCornerRadiusBottomEnd="4dp"
+                app:boxCornerRadiusBottomStart="4dp"
+                app:boxCornerRadiusTopEnd="4dp"
+                app:boxCornerRadiusTopStart="4dp"
+                app:boxStrokeColor="@color/vault_border"
+                app:boxStrokeWidth="1dp"
+                app:hintEnabled="false"
+                app:prefixText="₹ "
+                app:prefixTextColor="@color/vault_brass_dim">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editMaxAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:hint="Max"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/vault_parchment"
+                    android:textColorHint="@color/on_surface_variant"
+                    android:textSize="13sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <!-- Transaction Type - kept as Chip for isChecked API -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.15"
+            android:text="TRANSACTION TYPE"
+            android:textColor="@color/vault_brass_dim"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            app:selectionRequired="false"
+            app:singleSelection="false">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipIncome"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="INCOME"
+                android:textColor="@color/vault_parchment"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipCornerRadius="4dp"
+                app:chipStrokeColor="@color/vault_border"
+                app:chipStrokeWidth="1dp"
+                app:checkedIconTint="@color/vault_brass" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipExpense"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="EXPENSE"
+                android:textColor="@color/vault_parchment"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipCornerRadius="4dp"
+                app:chipStrokeColor="@color/vault_border"
+                app:chipStrokeWidth="1dp"
+                app:checkedIconTint="@color/vault_brass" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <!-- Categories -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.15"
+            android:text="CATEGORIES"
+            android:textColor="@color/vault_brass_dim"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            app:selectionRequired="false"
+            app:singleSelection="false" />
+
+        <!-- Sort By -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.15"
+            android:text="SORT BY"
+            android:textColor="@color/vault_brass_dim"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupSort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            app:selectionRequired="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipSortDateDesc"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:fontFamily="sans-serif-condensed"
+                android:text="DATE ↓"
+                android:textColor="@color/vault_parchment"
+                android:textSize="11sp"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipCornerRadius="4dp"
+                app:chipStrokeColor="@color/vault_border"
+                app:chipStrokeWidth="1dp"
+                app:checkedIconTint="@color/vault_brass" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipSortDateAsc"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="DATE ↑"
+                android:textColor="@color/vault_parchment"
+                android:textSize="11sp"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipCornerRadius="4dp"
+                app:chipStrokeColor="@color/vault_border"
+                app:chipStrokeWidth="1dp"
+                app:checkedIconTint="@color/vault_brass" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipSortAmountDesc"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="AMT ↓"
+                android:textColor="@color/vault_parchment"
+                android:textSize="11sp"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipCornerRadius="4dp"
+                app:chipStrokeColor="@color/vault_border"
+                app:chipStrokeWidth="1dp"
+                app:checkedIconTint="@color/vault_brass" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipSortAmountAsc"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="AMT ↑"
+                android:textColor="@color/vault_parchment"
+                android:textSize="11sp"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipCornerRadius="4dp"
+                app:chipStrokeColor="@color/vault_border"
+                app:chipStrokeWidth="1dp"
+                app:checkedIconTint="@color/vault_brass" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipSortCategory"
+                style="@style/Widget.Material3.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="CATEGORY"
+                android:textColor="@color/vault_parchment"
+                android:textSize="11sp"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipCornerRadius="4dp"
+                app:chipStrokeColor="@color/vault_border"
+                app:chipStrokeWidth="1dp"
+                app:checkedIconTint="@color/vault_brass" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/vault_border" />
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnClearFilters"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:letterSpacing="0.1"
+                android:paddingHorizontal="12dp"
+                android:text="CLEAR"
+                android:textColor="@color/expense_red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:letterSpacing="0.1"
+                android:paddingHorizontal="12dp"
+                android:text="CANCEL"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/btnApply"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_vault_button_primary"
+                android:gravity="center"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:letterSpacing="0.15"
+                    android:text="APPLY"
+                    android:textColor="@color/on_primary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

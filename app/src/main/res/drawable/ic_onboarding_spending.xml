@@ -1,0 +1,69 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Receipt body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,15 L165,15 C170,15 175,20 175,25 L175,165 L162,155 L149,165 L136,155 L123,165 L110,155 L97,165 L84,155 L71,165 L58,155 L45,165 L32,155 L25,162 L25,25 C25,20 30,15 35,15 Z" />
+
+    <!-- Receipt header line -->
+    <path
+        android:fillColor="#1E40AF"
+        android:pathData="M50,35 L150,35 L150,42 L50,42 Z" />
+
+    <!-- Separator -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M45,52 L155,52 L155,53 L45,53 Z" />
+
+    <!-- Line item 1 - dot + bar -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M50,68 A6,6,0,1,1,50,67.9 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M65,65 L120,65 L120,72 L65,72 Z" />
+    <path
+        android:fillColor="#334155"
+        android:pathData="M135,65 L155,65 L155,72 L135,72 Z" />
+
+    <!-- Line item 2 - dot + bar -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M50,90 A6,6,0,1,1,50,89.9 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M65,87 L110,87 L110,94 L65,94 Z" />
+    <path
+        android:fillColor="#334155"
+        android:pathData="M135,87 L155,87 L155,94 L135,94 Z" />
+
+    <!-- Line item 3 - dot + bar -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M50,112 A6,6,0,1,1,50,111.9 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M65,109 L130,109 L130,116 L65,116 Z" />
+    <path
+        android:fillColor="#334155"
+        android:pathData="M135,109 L155,109 L155,116 L135,116 Z" />
+
+    <!-- Total separator -->
+    <path
+        android:fillColor="#1E40AF"
+        android:pathData="M45,128 L155,128 L155,130 L45,130 Z" />
+
+    <!-- Total amount -->
+    <path
+        android:fillColor="#1E40AF"
+        android:pathData="M110,138 L155,138 L155,146 L110,146 Z" />
+
+    <!-- Rupee symbol accent -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M50,136 L55,136 L55,138 L60,138 L60,141 L55,141 L52,146 L48,146 L51,141 L45,141 L45,138 L50,138 Z" />
+</vector>
